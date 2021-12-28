@@ -17,6 +17,10 @@ int main() {
     char op;
     bool valido = true;
 
+	cout << "########################################################" << endl; 
+	cout << "                      Practica 9" << endl;
+	cout << "########################################################" << endl;    
+
     cout << "Ingrese operacion: ";
     cin >> op;
     cout <<"Ingrese x: ";
