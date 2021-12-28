@@ -14,4 +14,22 @@ int main() {
     cin >> x;
     cout << "Ingrese y: ";
     cin >> y;
+
+    witch (op) {
+        case '+':
+            resultado = x + y;
+            break;
+        case '-':
+            resultado = x - y;
+            break;
+        default:
+            valido = 0;
+    }
+
+    if (valido)
+        cout << "El resultado es " << resultado << " resultado" << endl;
+    else
+        cout << "Operacion invalida" << endl;
+
+    return 0;
 }
