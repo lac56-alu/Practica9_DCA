@@ -15,7 +15,7 @@ float potencia(float base, int exponente) {
 int main() {
     float x, y, resultado;
     char op;
-    int valido = 1;
+    bool valido = true;
 
     cout << "Ingrese operacion: ";
     cin >> op;
@@ -24,7 +24,7 @@ int main() {
     cout << "Ingrese y: ";
     cin >> y;
 
-    switch (op) {
+    witch (op) {
         case '+':
             resultado = x + y;
             break;
@@ -42,7 +42,7 @@ int main() {
         	resultado = potencia(x, (int) y);
             break;
         default:
-            valido = 0;
+            valido = false;
     }
 
     if (valido)
