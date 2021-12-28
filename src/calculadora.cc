@@ -28,7 +28,7 @@ int main() {
     cout << "Ingrese y: ";
     cin >> y;
 
-    witch (op) {
+    switch (op) {
         case '+':
             resultado = x + y;
             break;
