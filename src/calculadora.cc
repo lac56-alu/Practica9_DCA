@@ -15,7 +15,7 @@ float potencia(float base, int exponente) {
 int main() {
     float x, y, resultado;
     char op;
-    bool valido = true;
+    int valido = 1;
 
 	cout << "########################################################" << endl; 
 	cout << "                      Practica 9" << endl;
@@ -46,7 +46,7 @@ int main() {
         	resultado = potencia(x, (int) y);
             break;
         default:
-            valido = false;
+            valido = 0;
     }
 
     if (valido)
