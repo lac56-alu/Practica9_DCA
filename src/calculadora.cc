@@ -18,7 +18,7 @@ int main() {
     int valido = 1;
 
 	cout << "########################################################" << endl; 
-	cout << "                      Practica 9 - DCA" << endl;
+	cout << "                      Practica 9 DCA" << endl;
 	cout << "########################################################" << endl;    
 
     cout << "Ingrese operacion: ";
